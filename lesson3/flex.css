@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 20px;
+}
+.el{
+    border: 2px solid black;
+    background-color: beige;
+    width: 100px;
+    /* height: 70px; */
+    margin: 15px;
+    flex-grow: 1;
+}

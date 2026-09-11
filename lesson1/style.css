@@ -1,0 +1,45 @@
+body {
+background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fs3.russpass.ru%2Frp-mag-public-prod%2Fimages%2Fmayak_mob.format-webp.max-16383x16383.webpquality-100.webp&f=1&nofb=1&ipt=40c7e065657f9d4f1fc1013c0316eb49a14ca6d7bbb1cbbb9b18e93e4485ba82);
+background-position: center;
+background-repeat: no-repeat;
+}
+h1.main_header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style:italic;
+    font-weight:700;
+    font-size: 36px;
+    text-align: center;
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    border: 2px solid green;
+}
+h2 {
+    color: rgb(240, 36, 219);
+    text-decoration: underline;
+}
+p {
+    text-indent: 30px;
+}
+ul {
+    list-style-type: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fs3.russpass.ru%2Frp-mag-public-prod%2Fimages%2Fmayak_mob.format-webp.max-16383x16383.webpquality-100.webp&f=1&nofb=1&ipt=40c7e065657f9d4f1fc1013c0316eb49a14ca6d7bbb1cbbb9b18e93e4485ba82);
+}
+a:link {
+    color: gray;
+}
+a:hover {
+    color: red;
+    text-decoration: none;
+}
+a:visited{
+    color: green;
+}
+a:active{
+    color: aqua;
+}
+.par1 {
+    font-size: 24px;
+}
+#unic {
+    color: blueviolet;
+}
