@@ -1,0 +1,42 @@
+.slider-container {
+    position: relative;
+    display: inline-block;
+}
+.slider-img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    font-size: 40px;
+    color: #111;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.arrow-left {
+    left: 20px;
+}
+.arrow-right {
+    right: 20px;
+}
+.arrow:hover {
+    color: red;
+}
+
+.polaroid {
+    background: white;
+    padding: 10px 10px 20px 10px;
+    display: inline-block;
+    margin: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.polaroid img {
+    width: 200px;
+}
+.p1 { transform: rotate(-5deg); }
+.p2 { transform: rotate(5deg); }
