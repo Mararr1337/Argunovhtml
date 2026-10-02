@@ -1,0 +1,37 @@
+body {
+  font-family: sans-serif;
+  padding: 15px;
+}
+
+img {
+  display: block;
+  margin-bottom: 15px;
+  border: 1px solid #000;
+}
+.img-blur {
+  filter: blur(5px);
+}
+
+.img-gray {
+  filter: grayscale(100%);
+}
+
+.img-invert {
+  filter: invert(80%);
+}
+
+.img-double {
+  filter: grayscale(100%) blur(2px);
+}
+
+.order-a {
+  filter: invert(100%) sepia(100%);
+}
+
+.order-b {
+  filter: sepia(100%) invert(100%);
+}
+
+.img-svg {
+  filter: url(#my-svg-blur);
+}

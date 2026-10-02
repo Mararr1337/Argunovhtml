@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="filter.css">
+</head>
+<body>
+  <svg width="0" height="0" style="position:absolute;">
+    <filter id="my-svg-blur">
+      <feGaussianBlur stdDeviation="7,0" />
+    </filter>
+  </svg>
+
+  <h1>фильтр-эффекты</h1>
+  <h2>Одиночные фильтры с разными значениями</h2>
+  <p>Оригинальное изображение</p>
+  <img src="https://img.magnific.com/free-photo/3d-winter-landscape-with-christmas-tree-branches_1048-11507.jpg?semt=ais_hybrid&w=740&q=80" alt="зима">
+
+  <p>Размытие</p>
+  <img src="https://img.magnific.com/free-photo/3d-winter-landscape-with-christmas-tree-branches_1048-11507.jpg?semt=ais_hybrid&w=740&q=80" class="img-blur" alt="зима">
+  <p>Черно-белый</p>
+  <img src="https://img.magnific.com/free-photo/3d-winter-landscape-with-christmas-tree-branches_1048-11507.jpg?semt=ais_hybrid&w=740&q=80" class="img-gray" alt="зима">
+
+  <p>Инверсия тонов</p>
+  <img src="https://img.magnific.com/free-photo/3d-winter-landscape-with-christmas-tree-branches_1048-11507.jpg?semt=ais_hybrid&w=740&q=80" class="img-invert" alt="зима">
+
+
+  <h2>Два разных фильтра на одном фото</h2>
+  <img src="https://img.magnific.com/free-photo/3d-winter-landscape-with-christmas-tree-branches_1048-11507.jpg?semt=ais_hybrid&w=740&q=80" class="img-double" alt="зима">
+
+
+  <h2>Изменение порядка наложения фильтров</h2>
+  
+  <p>Вариант А</p>
+  <img src="https://img.magnific.com/free-photo/3d-winter-landscape-with-christmas-tree-branches_1048-11507.jpg?semt=ais_hybrid&w=740&q=80" class="order-a" alt="зима">
+
+  <p>Вариант Б</p>
+  <img src="https://img.magnific.com/free-photo/3d-winter-landscape-with-christmas-tree-branches_1048-11507.jpg?semt=ais_hybrid&w=740&q=80" class="order-b" alt="зима">
+
+  <h2>Применение SVG-фильтра</h2>
+  <img src="https://img.magnific.com/free-photo/3d-winter-landscape-with-christmas-tree-branches_1048-11507.jpg?semt=ais_hybrid&w=740&q=80" class="img-svg" alt="зима">
+
+</body>
+</html>

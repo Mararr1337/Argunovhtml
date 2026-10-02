@@ -1,0 +1,56 @@
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.main-menu {
+  background-color: black;
+  display: flex;
+}
+
+.main-menu > li > a {
+  color: white;
+  display: block;
+  padding: 15px 20px;
+  text-decoration: none;
+}
+
+.main-menu > li:hover > a {
+  background-color: violet;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.submenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  width: 200px;
+  border: 1px solid gray;
+  opacity: 0;
+  visibility: hidden;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 40.67s ease;
+}
+
+.submenu a {
+  color: black;
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+.submenu a:hover {
+  background-color: blue;
+}
+
+.dropdown:hover .submenu {
+  opacity: 1;
+  visibility: visible;
+  max-height: 200px;
+}

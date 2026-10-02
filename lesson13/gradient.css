@@ -1,0 +1,55 @@
+/* 
+.show-radial {
+    height: 600px;
+    background: linear-gradient(to right, white 20%, blue 40%,  red 60%);
+} */
+.block {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #000;
+  margin-bottom: 20px;
+}
+
+.task-1 {
+  background: radial-gradient(circle, red 20%, yellow 55%, #1e90ff 55%);
+}
+
+.task-2 {
+  background: linear-gradient(to right, 
+    yellow 0% 25%, 
+    #00ced1 25% 50%, 
+    red 50% 75%, 
+    #00cd00 75% 100%
+  );
+}
+
+.photo-bg {
+  background-image: url('https://downloader.disk.yandex.ru/preview/2d5a89511995b79fd5a4dd834e72fc3dde4946e2464cfef3adfcc5fd3fce44c2/6abf81c2/0Ro-A8QrsXLPr8q1ZmgNIKcPl1SR36-os0brl52puzmrdQEev421zCceJsThXRWUHYtfxQIIRmqFEe1dNkim4Q%3D%3D?uid=0&filename=%D0%9A%D1%80%D1%83%D0%B3.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=0&tknv=v3&is_direct_zip_experiment=1&size=1920x953');
+  background-size: cover;
+}
+
+.task-3-1 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url('https://downloader.disk.yandex.ru/preview/2d5a89511995b79fd5a4dd834e72fc3dde4946e2464cfef3adfcc5fd3fce44c2/6abf81c2/0Ro-A8QrsXLPr8q1ZmgNIKcPl1SR36-os0brl52puzmrdQEev421zCceJsThXRWUHYtfxQIIRmqFEe1dNkim4Q%3D%3D?uid=0&filename=%D0%9A%D1%80%D1%83%D0%B3.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=0&tknv=v3&is_direct_zip_experiment=1&size=1920x953');
+}
+
+.task-3-2 {
+  background-image: linear-gradient(to right, rgba(255, 0, 0, 0.5), rgba(0, 0, 255, 0.5)), url('https://downloader.disk.yandex.ru/preview/2d5a89511995b79fd5a4dd834e72fc3dde4946e2464cfef3adfcc5fd3fce44c2/6abf81c2/0Ro-A8QrsXLPr8q1ZmgNIKcPl1SR36-os0brl52puzmrdQEev421zCceJsThXRWUHYtfxQIIRmqFEe1dNkim4Q%3D%3D?uid=0&filename=%D0%9A%D1%80%D1%83%D0%B3.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=0&tknv=v3&is_direct_zip_experiment=1&size=1920x953');
+}
+
+.task-3-3 {
+  background-image: linear-gradient(to bottom right, rgba(255, 255, 0, 0.2), rgba(128, 0, 128, 0.8)), url('https://downloader.disk.yandex.ru/preview/2d5a89511995b79fd5a4dd834e72fc3dde4946e2464cfef3adfcc5fd3fce44c2/6abf81c2/0Ro-A8QrsXLPr8q1ZmgNIKcPl1SR36-os0brl52puzmrdQEev421zCceJsThXRWUHYtfxQIIRmqFEe1dNkim4Q%3D%3D?uid=0&filename=%D0%9A%D1%80%D1%83%D0%B3.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=0&tknv=v3&is_direct_zip_experiment=1&size=1920x953');
+}
+
+.task-4 {
+  background: 
+    linear-gradient(rgba(255, 0, 0, 0.4), rgba(255, 0, 0, 0.4)),
+    linear-gradient(to right, green, blue);
+}
+
+.task-rgb {
+  background: 
+    radial-gradient(circle at top right, red, transparent),
+    radial-gradient(circle at bottom left, blue, transparent),
+    radial-gradient(circle at top left, green, transparent);
+  background-color: #000; 
+}
