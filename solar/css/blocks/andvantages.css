@@ -1,5 +1,5 @@
 .advantages__list {
-    display: grid !important;
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 40px 30px;
     padding: 0;
@@ -32,8 +32,13 @@
     margin: 0;
 }
 
+@media (max-width: 900px) {
+    .advantages__list {
+        margin: 60px auto 18px;
+    }
+}
 @media (max-width: 768px) {
     .advantages__list {
-        grid-template-columns: 1fr;
+        flex-basis: 48%;
     }
 }
